@@ -7,12 +7,12 @@ node_modules
 # Ignore all text files
 *.txt
 
-.aux
-.log
-.nav
-.out
-.snm
-.gz
-.bak
-.toc
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.gz
+*.bak
+*.toc
 
