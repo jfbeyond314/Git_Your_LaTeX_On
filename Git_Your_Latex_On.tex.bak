@@ -81,7 +81,7 @@
 \begin{frame}
 \vspace{-0.5cm}
 \title{
-Git Your \LaTeX\,On!
+%Git Your \LaTeX On!
 }\author{
 	Joseph M. Fedrow\\
 	\vspace{0.5cm}
