@@ -1,8 +1,0 @@
-\beamer@sectionintoc {1}{\scshape Introduction}{1}{0}{1}
-\beamer@subsectionintoc {1}{1}{Introduction}{1}{0}{1}
-\beamer@sectionintoc {2}{\scshape Getting Git}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Getting Git}{6}{0}{2}
-\beamer@sectionintoc {3}{\scshape Typesetting LaTeX}{7}{0}{3}
-\beamer@subsectionintoc {3}{1}{Typesetting LaTeX}{7}{0}{3}
-\beamer@sectionintoc {4}{\scshape Summary}{8}{0}{4}
-\beamer@subsectionintoc {4}{1}{Summary}{8}{0}{4}
