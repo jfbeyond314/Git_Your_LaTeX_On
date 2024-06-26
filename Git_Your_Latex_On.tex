@@ -439,6 +439,40 @@ $$ \tau \epsilon \chi $$
 
 }
 
+\frame{\frametitle{One Example: Chaotic Inflation}
+
+\centering{
+\hspace{0.72cm}
+\begin{tikzpicture}
+
+\draw[<-, thick] (0,3) node[right] {$V(\phi)$} -- (0,0);
+\draw[<-, thick] (3,0) node[right] {$\phi$} -- (0,0); 
+\draw[<-, thick] (0,-1) -- (0,0); 
+\draw[<-, thick] (-3,0) -- (0,0);
+
+\draw [<->, thick, blue, dashed] (-2.5,2.5) parabola bend (0,0) (2.5,2.5) node[below right] {$\frac{1}{2}m^2\phi^2$};
+
+\draw<2-> [<->, thick, red, dashed] (-2.5,1.5) parabola bend (0,0) (2.5, 1.5);
+
+\draw<3-> [<->, thick, purple, dashed] (-2.5, .5) parabola bend (0,0) (2.5, .5);
+
+%\draw<4-> [<->, ultra thick, green,  dashed] (-2.5,0) -- (2.5,0);
+
+
+%\node at (-1.5,1.5) {\LARGE $\Lambda$};
+%\node at (1.5,1.5) {\LARGE $\Phi$};
+
+\end{tikzpicture}
+}
+$$ \ddot{\phi} + 3H\dot{\phi} + \frac{\textrm{d}V}{\textrm{d}\phi}=0 $$
+\vspace{-0.45cm}
+
+\centering{Something as simple as a parabola\\ can determine the fate of\\ the Universe.}
+
+}
+
+
+
 \section{\scshape Surprise!}
 \subsection{Surprise!}
 
@@ -453,16 +487,19 @@ $$ \tau \epsilon \chi $$
 \subsection{Summary}
 
 \frame{
-\frametitle{Summary}
+\frametitle{Summary and Resources}
 
+\centerline{Use git for all your version control needs}
+\centerline{https://git-scm.com/book/en/v2}
+\vfill
+
+\centerline{Use LaTeX for all your typesetting}
+\centerline{https://latex-tutorial.com}
+\vfill
+
+\centerline{1 Year Warranty of Service}
 }
 
-\frame{
-\frametitle{Resources}
-
-https://git-scm.com/book/en/v2
-
-}
 
 \end{document}
 
