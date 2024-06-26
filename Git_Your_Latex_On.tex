@@ -106,7 +106,7 @@ Git Your \LaTeX\,On!
 \end{frame}
 
 \frame{
-\frametitle{What is Git and LaTeX?}
+\frametitle{What are Git and LaTeX?}
 
 
 \centerline{\includegraphics[scale=0.2]{1}} 
@@ -120,30 +120,34 @@ Git Your \LaTeX\,On!
 \frame{
 \frametitle{How Can They Help You?}
 
-Version Control:\\
+\centerline{Version Control}
 
-The practice of tracking and managing changes to source code over time\\
+\vfill
 
-Keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code
+\centerline{The practice of tracking and managing changes to source code over time}
+\vfill
 
-Good for backups and making non-destructive edits\\ 
+\centerline{Really shines when working in teams on collaborative projects.}
 
-Really shines when working in teams on collaborative projects.\\
+\vfill
 
 \centerline{\includegraphics[scale=0.25]{3}} 
+
+
 
 }
 
 \frame{
 \frametitle{How Can They Help You?}
 
-Typesetting:\\ 
+\centerline{Typesetting}
+\vfill
 
-Helps make your documents looks professional.\\ 
-
-Really shines when working with equations and tables.\\
-
- \centerline{\includegraphics[scale=0.42]{4}} 
+\centerline{Helps make your documents looks professional.}
+\vfill
+\centerline{Really shines when working with equations and tables.}
+\vfill
+\centerline{\includegraphics[scale=0.42]{4}} 
 
 }
 
@@ -152,17 +156,69 @@ Really shines when working with equations and tables.\\
 \subsection{Git}
 
 \frame{
-\frametitle{History and Philosophy of Git}
+\frametitle{The Philosophy of Git}
 
-2002: BitKeeper for Linux (propietary) \\
+\centerline{Git is an open source \textit{Distributed} Version Control System (DVCS)}
 
-2005: Git \\
+\vfill
 
-Git is free and open source \\
+\centerline{Every clone is really a full backup of all the data.}
 
-\textit{Distributed} Version Control System (DVCS)\\
-Every clone is really a full backup of all the data.\\
+\vfill
 
+\centerline{\includegraphics[scale=0.3]{8}}
+
+}
+
+\frame{
+\frametitle{The Philosophy of Git}
+
+\centerline{Nearly Everything is Local}
+\vfill
+
+\centerline{Snapshots of Data}
+\vfill
+
+
+
+\centerline{Git has Integrity}
+
+\vfill
+
+\centerline{\includegraphics[scale=0.3]{17}}
+
+}
+
+\frame{
+\frametitle{Bonus Question 1!}
+
+\centerline{What does Git stand for?}
+
+}
+
+\frame{
+\frametitle{Bonus Question 1!}
+
+\centerline{What does Git stand for?}
+
+\vfill
+
+\centerline{\includegraphics[scale=0.45]{12}}
+
+}
+
+\frame{
+\frametitle{Bonus Question 1!}
+
+\centerline{What does Git stand for?}
+\vfill
+
+\centerline{\includegraphics[scale=0.45]{12}}
+\vfill
+
+\centerline{\includegraphics[scale=0.28]{11}}
+\vfill
+\centerline{Linus Torvalds, creator of Linux and Git}
 
 }
 
@@ -179,12 +235,99 @@ Every clone is really a full backup of all the data.\\
 \frame{
 \frametitle{How to Use Git}
 
-Install: git --version (osx)\\
+%Install: git --version (osx)\\
+%https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+\centerline{\includegraphics[scale=0.48]{9}}
 
 }
+
+
+\frame{
+\frametitle{Setting up Git}
+
+%Install: git --version (osx)\\
+%https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+\centerline{Install and Configure}
+
+\begin{center}
+\begin{itemize}
+  \item git - -version
+  \item git config - -global user.name "John Doe"
+  \item git config - -global user.email johndoe@example.com
+\end{itemize}
+\end{center}
+
+\vfill
+
+\centerline{\includegraphics[scale=0.16]{15}}
+
+}
+
+\frame{
+\frametitle{Using Git}
+
+
+\centerline{Initializing a Repository in an Existing Directory} 	
+
+\begin{center}
+\begin{itemize}
+  \item git init
+  \item git add myfavfile.txt
+  \item git commit -m 'my first commit'
+\end{itemize}
+\end{center}
+
+
+\centerline{You now have a Git repo with tracked files and an initial commit!}
+
+\vfill
+
+\centerline{\includegraphics[scale=0.2]{16}}
+
+}
+
+\frame{
+\frametitle{Using Git}
+
+%Install: git --version (osx)\\
+%https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+\centerline{Cloning an Existing Repository}
+
+\begin{center}
+\begin{itemize}
+  \item git clone https://github.com/mynewproject
+\end{itemize}
+\end{center}
+
+\vfill
+
+\centerline{\includegraphics[scale=0.48]{14}}
+
+
+}
+
+
+\frame{
+\frametitle{The General Workflow}
+
+\centerline{\includegraphics[scale=0.28]{10}}
+
+}
+
+\frame{
+\frametitle{The General Workflow}
+
+\centerline{\includegraphics[scale=0.25]{10}}
+
+\vfill
+
+\centerline{\includegraphics[scale=0.5]{13}}
+
+}
+
 
 \frame{
 \frametitle{When diving into Git...}
@@ -208,6 +351,19 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 }
 
+\frame{
+\frametitle{Tools For Your Journey}
+
+\centerline{GitHub, GitLab, and BitBucket for online servers}
+\vfill
+
+\centerline{Gitkraken for your Desktop}
+\vfill
+
+\centerline{\includegraphics[scale=0.22]{18}} 
+
+}
+
 
 
 
@@ -218,11 +374,38 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 \frame{
 \frametitle{History of Tex and LaTeX}
 
-1977 Donald Knuth developed Tex-- a computer language and program designed for use in typesetting; in particular, for typesetting math and other technical (from Greek "techne" = art/craft, the stem of `technology') material. \\
+\begin{center}
+1977 Donald Knuth developed Tex-- a computer language and program designed for use in typesetting; in particular, for typesetting math and other technical material.
+\end{center}
 
-LaTeX was originally written in the early 1980s by Leslie Lamport at SRI International\\
 
-LaTeX is intended to provide a high-level, descriptive markup language to utilize TeX more easily. TeX handles the document layout, while LaTeX handles the content side for document processing.\\
+\centerline{LaTeX was  written in the early 1980s by Leslie Lamport.}
+\vfill
+
+\begin{center}
+TeX handles the document layout, while LaTeX handles\\ the content side for document processing.
+\end{center}
+
+\centerline{\includegraphics[scale=0.42]{21}} 
+
+}
+
+\frame{
+\frametitle{Bonus Question 2!}
+
+\centerline{What does TeX stand for?}
+
+}
+
+
+\frame{
+\frametitle{Bonus Question 2!}
+
+\centerline{What does TeX stand for?}
+
+
+
+$$ \tau \epsilon \chi $$
 
 
 }
@@ -230,7 +413,29 @@ LaTeX is intended to provide a high-level, descriptive markup language to utiliz
 \frame{
 \frametitle{How to Use LaTeX}
 
-This write-format-preview cycle is one of the chief ways in which working with LaTeX differs from the What-You-See-Is-What-You-Get (WYSIWYG) style of document editing. It is similar to the code-compile-execute cycle known to computer programmers. 
+\centerline{Installation}
+\vfill
+
+\centerline{https://www.latex-project.org}
+\vfill
+
+\centerline{\includegraphics[scale=0.22]{19}} 
+
+}
+
+\frame{
+\frametitle{Cool Stuff in LaTeX}
+
+\centerline{Graphics with the Tikz package}
+\vfill
+
+
+\centerline{\includegraphics[scale=0.18]{20}} 
+
+\vfill
+
+
+\centerline{More than just Typesetting!}
 
 }
 
